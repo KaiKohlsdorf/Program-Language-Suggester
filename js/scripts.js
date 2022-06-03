@@ -10,10 +10,13 @@ $(document).ready(function() {
   const beveragetype= $("input:radio[name=costume]:checked").val();
   const subjecttype= $("input:radio[name=subject]:checked").val();
   const purchasetype= $("input:radio[name=purchase]:checked").val();
-  
+
   buildQuiz();
 
-  submitButton.addEventListener('click', showResults);
+  $("submit").click(function() {
+    $(".results-showing").show();
+  });
+
+
   
-  
-})
+});

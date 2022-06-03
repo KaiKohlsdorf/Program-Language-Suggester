@@ -18,17 +18,17 @@
         <h1>Which of these animals is your favorite?</h1>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="cat" checked> Cat
+            <input type="radio" name="animal" value="a" checked> A. Cat
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="dog"> Dog
+            <input type="radio" name="animal" value="b"> B. Dog
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="animal" value="hedgehog"> Hedgehog
+            <input type="radio" name="animal" value="c"> C. Hedgehog
           </label>
         </div>
       </form>
@@ -38,17 +38,17 @@
         <h1>If you had to pick a costume to wear for the rest of your life, which would it be?</h1>
         <div class="radio">
           <label>
-            <input type="radio" name="costume" value="donut" checked> Donut
+            <input type="radio" name="costume" value="a" checked> A. Donut
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="costume" value="ghost"> Ghost
+            <input type="radio" name="costume" value="b"> B. Ghost
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="costume" value="robot"> Robot
+            <input type="radio" name="costume" value="c"> C. Robot
           </label>
         </div>
       </form>
@@ -58,17 +58,17 @@
         <h1>Which of these would you order at a restaurant?</h1>
         <div class="radio">
           <label>
-            <input type="radio" name="drink" value="coffee" checked> Coffee
+            <input type="radio" name="drink" value="a" checked> A. Coffee
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="drink" value="soda"> Soda
+            <input type="radio" name="drink" value="b"> B. Soda
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="drink" value="alcohol"> Alcoholic Beverage
+            <input type="radio" name="drink" value="c"> C. Alcoholic Beverage
           </label>
         </div>
       </form>
@@ -78,17 +78,17 @@
         <h1>What was your favorite subject in school?</h1>
         <div class="radio">
           <label>
-            <input type="radio" name="subject" value="math" checked> Math
+            <input type="radio" name="subject" value="a" checked> A. Math
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="subject" value="science"> Science
+            <input type="radio" name="subject" value="b"> B. Science
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="subject" value="english"> English
+            <input type="radio" name="subject" value="c"> C. English
           </label>
         </div>
       </form>
@@ -98,27 +98,42 @@
         <h1>Which of these are you most likely to purchase online?</h1>
         <div class="radio">
           <label>
-            <input type="radio" name="purchase" value="groceries" checked> Groceries
+            <input type="radio" name="purchase" value="a" checked> A. Groceries
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="purchase" value="shoes"> Shoes
+            <input type="radio" name="purchase" value="b"> B. Shoes
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="purchase" value="gifts"> Gifts
+            <input type="radio" name="purchase" value="c"> C. Gifts
           </label>
         </div>
         <button type="submit" class="btn">Submit Quiz!</button>
       </form>
     </div>
   </div>
-  <div class="results">
-
-
-
+  <div class="results-showing">
+    <div class="container">
+      <form id="mostlya">
+        <h1>Mostly A</h1>
+          <body>You chose mostly A! This means you should learn Python first!</body>
+      </form>
+    </div>
+    <div class="container">
+      <form id="mostlyb">
+        <h1>Mostly B</h1>
+          <body>You chose mostly B! This means you should learn C# first!</body>
+      </form>
+    </div>
+    <div class="container">
+      <form id="mostlyc">
+        <h1>Mostly C</h1>
+          <body>You chose mostly C! This means you should learn Ruby first!</body>
+      </form>
+    </div>
   </div>
 </body>
 </html>
