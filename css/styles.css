@@ -2,3 +2,19 @@
   display: none;
 }
 
+.important {
+  color: teal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.unimportant {
+  color: fuchsia;
+
+}
+
+.answerline {
+  color: blueviolet;
+  font-style: italic;
+
+}
