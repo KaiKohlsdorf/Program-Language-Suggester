@@ -13,10 +13,22 @@ $(document).ready(function() {
 
   buildQuiz();
 
-  $("submit").click(function() {
-    $(".results-showing").show();
+  $("p").click(function() {
+    $("results").show();
+    $("results").hide();
   });
 
 
+  const value = "mostlya" ("Submit");
+
+    if (value = mostlya) {
+      $('#mostlya').show();
+    } else if (PLACEHOLDER) {
+      $('#mostlyb').show();
+    } else {
+      $('#mostlyc').show();
+    }
   
-});
+  
+});  
+
