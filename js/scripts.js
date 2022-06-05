@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  const intro= parseInt(prompt("Type 'yes' if you want to learn to code!"));
-
-    if (intro = yes || Yes || YES) {
+  const intro= parseInt(prompt("Type '1' if you want to learn to code!"));
+  
+    if (intro === 1) {
     $('#yes').show();
     } else {
     $('#no').show();
