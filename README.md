@@ -30,8 +30,6 @@
 
 *Submit button does not work.
 
-*Currently no answers bring up the quiz.
-
 ## License
 [MIT][<a href=https://github.com/KaiKohlsdorf/Program-Language-Suggester/blob/main/LICENSE>LICENSE</a>]
 
