@@ -7,16 +7,19 @@ $(document).ready(function() {
     $('#no').show();
     }
 
-  
-  const animal= $("input:radio[name=animal]:checked").val();
-  const costume= $("input:radio[name=costume]:checked").val();
-  const beverage= $("input:radio[name=costume]:checked").val();
-  const subject= $("input:radio[name=subject]:checked").val();
-  const purchase= $("input:radio[name=purchase]:checked").val();
-    
 
-  $("p").click(function() {
-    $("results").show();
-    $("results").hide();
+  $("form#animalType").submit(function(event) {
+    
+      const animal = $("input:radio[name=animal]:checked").val();
+      const costume = $("input:radio[name=costume]:checked").val();
+      const beverage = $("input:radio[name=costume]:checked").val();
+      const subject = $("input:radio[name=subject]:checked").val();
+      const purchase = $("input:radio[name=purchase]:checked").val();
+      
+    });
+  
+    
+  $("button#submit").click(function() {
+    $("results").show;
   });
 }); 

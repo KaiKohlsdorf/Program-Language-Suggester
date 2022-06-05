@@ -2,6 +2,22 @@
   display: none;
 }
 
+#results {
+  display: none;
+}
+
+#mostlyA {
+  display: mostlyA;
+}
+
+#mostlyB {
+  display: mostlyB;
+}
+
+#mostlyC {
+  display: mostlyC;
+}
+
 .important {
   color: teal;
   font-weight: bold;

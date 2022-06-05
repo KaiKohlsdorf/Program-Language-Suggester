@@ -18,11 +18,11 @@
       </div>
       <div class="quiz">
         <div class="container">
-          <form id="animaltype">
+          <form id="animalType">
             <div class="unimportant">
               <h4>Which of these animals is your favorite?</h4>
             </div>
-              <div class="answerline">
+              <div class="answerLine">
                 <div class="radio">
                   <label>
                     <input type="radio" name="animal" id="a" value="cat" checked> A. Cat
@@ -40,13 +40,16 @@
                 </div>
             </div>
           </form>
+          <div id="animal">
+
+          </div>
         </div>
         <div class="container">
-          <form id="costumetype">
+          <form id="costumeType">
             <div class="unimportant">
               <h4>If you had to pick a costume to wear for the rest of your life, which would it be?</h4>
             </div>
-            <div class="answerline">  
+            <div class="answerLine">  
               <div class="radio">
                 <label>
                   <input type="radio" name="costume" id="a" value="donut" checked> A. Donut
@@ -64,13 +67,16 @@
               </div>
             `</div>
           </form>
+          <div id="costume">
+
+          </div>
         </div>
         <div class="container">
-          <form id="drinktype">
+          <form id="drinkType">
             <div class="unimportant">
               <h4>Which of these would you order at a restaurant?</h4>
             </div>
-            <div class="answerline">
+            <div class="answerLine">
               <div class="radio">
                 <label>
                   <input type="radio" name="drink" id="a" value="coffee" checked> A. Coffee
@@ -88,13 +94,16 @@
               </div>
             </div>
           </form>
+          <div id="drink">
+
+          </div>
         </div>
         <div class="container">
-          <form id="subjecttype">
+          <form id="subjectType">
             <div class="unimportant">
               <h4>What was your favorite subject in school?</h4>
             </div>
-            <div class="answerline">
+            <div class="answerLine">
               <div class="radio">
                 <label>
                   <input type="radio" name="subject" id="a" value="math" checked> A. Math
@@ -112,14 +121,16 @@
               </div>
             </div>
           </form>
+        <div id="subject">
+
         </div>
         <div class="container">
-          <form id="purchasetype">
+          <form id="purchaseType">
             <div class="unimportant">
               <h4>Which of these are you most likely to purchase online?
               </h4>
             </div>
-            <div class="answerline">
+            <div class="answerLine">
               <div class="radio">
                 <label>
                   <input type="radio" name="purchase" id="a" value="groceries" checked> A. Groceries
@@ -136,16 +147,41 @@
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn">Submit Quiz!</button>
+            <button class="btn" id="submit">Submit Quiz!</button>
           </form>
+          <div id="purchase">
+
+          </div>
+        </div>
+        <div class="container">
+          <div id="results">
+            <div class="container">
+              <div id="mostlyA">
+                <h2>Mostly A</h2>
+                  <body>You chose mostly A answers! This means you should learn Python first!</body>
+              </div>
+            </div>
+            <div class="container">
+              <div id="mostlyB">
+                <h2>Mostly B</h2>
+                  <body>You chose mostly B answers! This means you should learn C# first!</body>
+              </div>
+            </div>
+            <div class="container">
+              <div id="mostlyC">
+                <h2>Mostly C</h2>
+                  <body>You chose mostly C answers! This means you should learn Ruby first!</body>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </form>
   </div>
-  <div id="no">
+  <form id="no">
     <div class="important">
       <h1>This page isn't much for you! May I suggest looking at some cute <a href="https://www.boredpanda.com/cute-kittens/?utm_source=google&utm_medium=organic&utm_campaign=organic">kittens</a>?</h1>
     </div>
-  </div>
+  </form>
 </body>
 </html>
