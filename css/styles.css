@@ -2,20 +2,16 @@
   display: none;
 }
 
-#results {
+#mostlyA {
   display: none;
 }
 
-#mostlyA {
-  display: mostlyA;
-}
-
 #mostlyB {
-  display: mostlyB;
+  display: none;
 }
 
 #mostlyC {
-  display: mostlyC;
+  display: none;
 }
 
 .important {

@@ -28,7 +28,7 @@
 
 ## Known Bugs: 
 
-*Submit button does not work.
+*Results are only returned from the first question.
 
 ## License
 [MIT][<a href=https://github.com/KaiKohlsdorf/Program-Language-Suggester/blob/main/LICENSE>LICENSE</a>]

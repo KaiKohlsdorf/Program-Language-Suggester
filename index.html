@@ -18,34 +18,31 @@
       </div>
       <div class="quiz">
         <div class="container">
-          <form id="animalType">
+          <div id="animal">
             <div class="unimportant">
               <h4>Which of these animals is your favorite?</h4>
             </div>
-              <div class="answerLine">
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="animal" id="a" value="cat" checked> A. Cat
-                  </label>
-                </div>
+            <div class="answerLine">
               <div class="radio">
-                  <label>
-                  <input type="radio" name="animal" id="b" value="dog"> B. Dog
+                <label>
+                  <input type="radio" name="animal" value="cat" checked> A. Cat
                 </label>
               </div>
               <div class="radio">
                 <label>
-                    <input type="radio" name="animal" id="c" value="bunny"> C. Bunny
-                  </label>
-                </div>
+                  <input type="radio" name="animal" value="dog"> B. Dog
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="animal" value="bunny"> C. Bunny
+                </label>
+              </div>
             </div>
-          </form>
-          <div id="animal">
-
           </div>
         </div>
         <div class="container">
-          <form id="costumeType">
+          <div class="costume">
             <div class="unimportant">
               <h4>If you had to pick a costume to wear for the rest of your life, which would it be?</h4>
             </div>
@@ -66,13 +63,10 @@
                 </label>
               </div>
             `</div>
-          </form>
-          <div id="costume">
-
           </div>
         </div>
         <div class="container">
-          <form id="drinkType">
+          <div id="drink">
             <div class="unimportant">
               <h4>Which of these would you order at a restaurant?</h4>
             </div>
@@ -93,13 +87,10 @@
                 </label>
               </div>
             </div>
-          </form>
-          <div id="drink">
-
           </div>
         </div>
         <div class="container">
-          <form id="subjectType">
+          <div id="subject">
             <div class="unimportant">
               <h4>What was your favorite subject in school?</h4>
             </div>
@@ -120,12 +111,10 @@
                 </label>
               </div>
             </div>
-          </form>
-        <div id="subject">
-
+          </div>
         </div>
         <div class="container">
-          <form id="purchaseType">
+          <div id="purchase">
             <div class="unimportant">
               <h4>Which of these are you most likely to purchase online?
               </h4>
@@ -147,33 +136,22 @@
                 </label>
               </div>
             </div>
-            <button class="btn" id="submit">Submit Quiz!</button>
-          </form>
-          <div id="purchase">
-
+          <button class="btn" id="submit">Submit Quiz!</button>
           </div>
         </div>
         <div class="container">
-          <div id="results">
-            <div class="container">
-              <div id="mostlyA">
-                <h2>Mostly A</h2>
-                  <body>You chose mostly A answers! This means you should learn Python first!</body>
-              </div>
-            </div>
-            <div class="container">
-              <div id="mostlyB">
-                <h2>Mostly B</h2>
-                  <body>You chose mostly B answers! This means you should learn C# first!</body>
-              </div>
-            </div>
-            <div class="container">
-              <div id="mostlyC">
-                <h2>Mostly C</h2>
-                  <body>You chose mostly C answers! This means you should learn Ruby first!</body>
-              </div>
-            </div>
-          </div>
+          <span id="mostlyA">
+            <h2>Mostly A</h2>
+              <body>You chose mostly A answers! This means you should learn Python first!</body>
+          </span>
+          <span id="mostlyB">
+            <h2>Mostly B</h2>
+              <body>You chose mostly B answers! This means you should learn C# first!</body>
+          </span>
+          <span id="mostlyC">
+            <h2>Mostly C</h2>
+              <body>You chose mostly C answers! This means you should learn Ruby first!</body>
+          </span>
         </div>
       </div>
     </form>
